@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+td, th{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 35px;
+}
+
+table{
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(61, 26, 26);
+    color: white;
+}
+
+.tbl{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.po{
+    width: 100%;
+    background-color:  rgb(61, 26, 26);
+    min-height: 100px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+#x{
+    padding-top: 10px;
+    font-size: 3.5vw;
+    padding-left: 30px;
+}
+
+ul>li{
+    text-align: left;
+    font-size: 2.83vw;
+}
+
+ul{
+    margin-right: 10px;
+}

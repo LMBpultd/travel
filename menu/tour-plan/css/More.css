@@ -1,0 +1,67 @@
+#image{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.list-destiny {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.list-destiny h3{
+    margin-bottom: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 4.6vw;
+    color: rgb(0, 0, 0);
+}
+
+#plans{
+    width: 90%;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 3.5vw;
+    margin: auto;
+    line-height: 1.4;
+    padding-right: 10px;
+    margin-bottom: 25px;
+
+}
+
+.pan1, .pan2, .pan3 {
+    border-bottom: 4px solid black;
+    margin: auto;
+}
+
+.pan1{
+    margin-top: 50px;
+}
+
+
+#plans h2{
+    text-align: center; 
+    line-height: 2;
+}
+
+#plans h3{
+    padding-bottom: 10px;
+    font-size: 5vw;
+    text-align: center;
+}
+
+li{
+    margin-left: 0;
+    text-align: justify;
+}
+
+.sp{
+    height: 100px;
+    float: none;
+}
+

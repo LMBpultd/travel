@@ -5,6 +5,11 @@
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .topnav{
     width: 100vw;
     height: 80px;
@@ -20,20 +25,17 @@
     padding-top: 20px;
 }
 
-.bar{
-    float: right;
-    width: 15vw;
-    margin-top: -35px;
-    font-weight: 900;
-    border: none;
-    background-color: rgb(61, 26, 26);
+#logo{
+    position: absolute;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 0;
+    top: 10px;
+    right: 10px;
 }
 
-.bar>i{
-        background-color: rgb(61, 26, 26);
-        color: white;    
-        font-size: 9vw;
-
+#logo:hover{
+    opacity: 1;
 }
 
 /* Image section - horizontal scroll with snap */
@@ -176,6 +178,7 @@ a{
     text-decoration: none;
     background: none;
     color: rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 .welcomnote{
@@ -229,7 +232,7 @@ a{
 }
 
 #whatsapp>a{
-color: white;
+        color: white;
         text-decoration: none;
         font-weight: bold;
         font-family: 'Arial Narrow', Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -251,6 +254,28 @@ color: white;
     width: 90%;
 
 }
+.menubar-bottom {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  display: flex;
+  border-color: transparent;
+  background: none;
+  justify-content: space-around;
+}
+
+.menubar-bottom a button{
+    justify-content: space-around;
+}
+
+.men-bar{
+    height: 5vh;
+    font-size: 4vw;
+    border-radius: 10px;
+    background-color: rgb(61, 26, 26);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+}
 
 
 
@@ -268,10 +293,6 @@ color: white;
 
    }
 
-   .bar{
-    display: none;
-    
-   }
 .topnav>h1{
     padding-bottom: 25px;
     padding-top: 10px;
